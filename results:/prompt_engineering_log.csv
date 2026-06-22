@@ -1,0 +1,7 @@
+Prompt_Name,Accuracy,Macro_F1,Timestamp,Notes
+baseline,0.851,0.635,2025-10-27 02:07:43,Zero-shot direct classification; strong but slightly neutral-biased.
+definition_based,0.802,0.621,2025-10-27 02:07:43,Includes emotion definitions; struggled with Persian idioms.
+few_shot,0.837,0.69,2025-10-27 02:07:43,Few-shot with examples; best performing prompt.
+structured_json,0.552,0.406,2025-10-27 02:07:43,Rigid JSON format; poor flexibility in Persian phrasing.
+hybrid,0.696,0.553,2025-10-27 02:07:43,Mixed definitions + examples; moderate but inconsistent.
+ensemble,0.69,0.536,2025-10-27 02:07:43,Majority voting; overpredicted 'neutral' due to class imbalance.
