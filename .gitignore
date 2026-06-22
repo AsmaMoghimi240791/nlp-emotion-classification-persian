@@ -1,0 +1,31 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Secrets (AssemblyAI / API keys)
+.env
+.env.*
+config.json
+
+# Large/incomplete model artifacts
+*.zip
+my_translation_model.zip/
+
+# Raw audio/video (not redistributed)
+*.mp4
+*.wav
